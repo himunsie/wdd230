@@ -5,7 +5,9 @@ body {
     line-height: 1.5;
 }
 
-header, main, footer {
+header, main {
+    display: grid;
+    grid-template-columns: 1fr;
     margin: 1.5rem auto;
     max-width: 760px;
 }
@@ -19,25 +21,26 @@ header, footer {
 }
 
 header {
-    display: grid;
-    grid-template-columns: auto auto auto;
     padding: 1.5rem;
     place-items: center;   
    
 }
 
 
-
 footer {
+    margin: 1.5rem auto;
     padding: 1rem;
+    max-width: 760px;
+   
 }
 
-.profilepic {
-    border: 1px solid #fff;
+img {
+    border: 1px solid #000;
     border-radius: 4px;
-    padding: 5px;
-    width: 125px;
+    width: 98%;
     height: auto;
+    margin: 15px 2px;
+    
   }
 
 h1 {
@@ -45,42 +48,48 @@ h1 {
     font-size: 36px;
     letter-spacing: .15rem;
     text-shadow: 1px 1px 1px #fff;
+    margin: 0;
 }
 
 h2 {
     font-family: "Playfair Display", serif;
     font-size: 1.2em;
     color: #476367; 
+    margin: 0;
+    font-size: 30px;
 }
-h3 {
-    background-color: #476367;
-    color: white;
-    text-align: center;
-}
+
 hr {
     color: #574A45
 }
 p {
-    margin: 0;
+    margin: 0 10px;
+    text-align: center;
 }
 .update {
     color: #574A45;
     font-size: .95em;
 }
 
-.design_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 100%;
-    
-
-}
-
 .hierarchy, .whitespace, .contrast {
     border: 1px solid #000;
+    border-radius: 5px;
     background-color: #e6e6e6;
-    border-radius: 8px;
-    width: 200px;
-    padding: 0 10px 10px 10px;
+    
+    width: 1fr;
+    margin: .75rem;
     
 }  
+h3 {
+    background-color: #476367;
+    color: white;
+    text-align: center;
+    margin: 0;
+   
+}
+h4 {
+    color: #476367;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0 5px;
+}
