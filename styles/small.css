@@ -65,6 +65,7 @@ hr {
 p {
     margin: 0 10px;
     text-align: center;
+    line-height: 1.25;
 }
 .update {
     color: #574A45;
