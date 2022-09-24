@@ -63,7 +63,7 @@ hr {
     color: #574A45
 }
 p {
-    margin: 0 10px;
+    margin: 0 10px 10px;
     text-align: center;
     line-height: 1.25;
 }
@@ -85,7 +85,7 @@ h3 {
     background-color: #476367;
     color: white;
     text-align: center;
-    margin: 0;
+    margin: 0px
    
 }
 h4 {
@@ -94,3 +94,13 @@ h4 {
     font-weight: bold;
     margin: 20px 0 5px;
 }
+
+a {
+    text-decoration: none;
+    
+    color: #8F4553;
+    font-weight: bolder;
+  }
+  a:hover {
+    text-decoration: underline;
+  }

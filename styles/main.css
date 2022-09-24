@@ -83,4 +83,14 @@ p {
     width: 200px;
     padding: 0 10px 10px 10px;
     
-}  
+} 
+
+a {
+    text-decoration: none;
+    
+    color: #8F4553;
+    font-weight: bolder;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
