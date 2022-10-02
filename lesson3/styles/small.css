@@ -75,7 +75,7 @@ h2 {
 hr {
     color: #574A45
 }
-p {
+p, ol {
     margin: 10px 30px 30px;
     line-height: 1.25;
     font-size: 1rem;
@@ -99,3 +99,45 @@ h3 {
 nav a:hover {
     text-decoration: underline;
   }
+
+.color-scheme img{
+    width: 70%;
+    height: auto;
+    margin: 10px 30px;
+}
+.color-scheme h3 {
+    border: 1px solid #000;
+    margin: 10px auto;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+#maincolor {
+    background-color: #0599CF;
+    color: #fff;
+}
+#navcolor {
+    background-color: #fe4a49;
+    color: #fff;
+}
+#accentcolor {
+    background-color: #ffbf46;
+    color: #fff;
+
+}
+#bodycolor {
+    background-color: #fff;
+    
+
+}
+#titlecolor {
+    background-color: #222e50;
+    color: #fff;
+}
+#anton {
+    font-family: Anton;
+}
+#worksans {
+    font-family: Work Sans;
+}
