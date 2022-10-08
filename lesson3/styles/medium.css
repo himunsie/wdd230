@@ -1,15 +1,10 @@
 @media only screen and (min-width: 32.5em){
-    main {
+    header {
 		grid-template-columns: 1fr 1fr;
 	}
 
-	main section:nth-child(2) {
-		display: block;
-	}
+	
 
-	main section:nth-child(3) {
-		grid-column: span 2;
-	}
 	nav { display: flex; }
 		  nav a { flex: 1 1 auto; }
     

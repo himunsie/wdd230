@@ -1,0 +1,28 @@
+@media only screen and (min-width: 35rem) {
+    #topnav a {
+        text-align: center;
+    }
+    .copyright {
+        display: flex;
+        justify-content: space-between;
+        padding: 6px 30px;
+    }
+    main {
+        display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	main section:nth-child(2) {
+		display: block;
+	}
+
+	main section:nth-child(4) {
+		grid-column: span 2;
+	}
+    .mainbanner {
+        grid-column: span 3;
+    }
+    .mission {
+        grid-column: span 3;
+    }
+}

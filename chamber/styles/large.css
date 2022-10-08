@@ -1,0 +1,46 @@
+@media only screen and (min-width: 64rem) {
+    main {
+		grid-template-columns: 1fr 1fr 1fr;
+        
+	}
+
+	main section:nth-child(4) {
+		grid-column: span 1;
+	}
+ 
+
+    nav button {
+        display: none;
+    }
+    nav {
+        display: flex;
+        justify-content: right;
+    }
+    nav ul#topnav {
+        display: flex;
+    }
+    
+    #topnav {       
+        margin: 0 30px;
+    }
+    #topnav li {
+     
+        flex: 1 1 auto;
+    }
+    #topnav a {
+        text-align: center;
+        margin: 3px;
+        background-color: #ffbf46;
+    }
+    #topnav a:hover {
+        text-decoration: underline;
+        background-color: #ffbf46;
+        
+    }  
+
+    .headnav{
+        text-align: left;
+        
+    }
+    
+}

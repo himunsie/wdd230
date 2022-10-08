@@ -1,0 +1,236 @@
+
+main {
+    margin: 30px;
+    font-family: "Work Sans", sans-serif;
+    text-align: center;  
+}
+
+nav button {
+    
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem; 
+}
+
+nav {
+    position: relative;
+    justify-content: right;
+    /* background-color: #ffbf46; */
+    margin: auto auto;
+    font-weight: bold;
+    max-height: 50px;
+    font-size: 1rem;
+    background-color: #ffbf46;
+    text-align: right;
+    text-transform: uppercase;  
+}
+
+nav ul {
+    display: none;
+}
+nav ul.open {
+    display: block;   
+}
+
+h1,h2 {
+    /* grid-column: 2/4; */
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    font-weight: normal;   
+}
+
+h1, nav, .date {
+    font-family: "Oswald", sans-serif;
+}
+
+h2 {  
+    font-size: 1.30rem;
+    margin: 0 auto 10px;
+    font-family: "Work Sans", sans-serif;
+}
+
+#topnav {
+    list-style: none;
+    padding: 0 0 5px;
+    margin: 0 ;
+}
+
+#topnav a {
+    display: block;
+    padding: .75rem 1.25rem;
+    text-align: center;
+    font-size: 1.2rem;
+    
+    text-decoration: none;
+    color: #000;
+    background-color: #ffbf46;
+    /* background-color: rgb(195,218,224); */
+}
+
+#topnav a:hover {
+    background-color: #fe4a49;  
+} 
+
+#topnav a:active {
+    background-color: #fe4a49;
+}
+
+.logo {
+    display: block;
+    width: 265px;
+    /* position: absolute;
+    top:0;
+    left: 0;
+    right: 0; */
+    margin: 0 auto;
+    padding: .75rem 0 10px;
+}
+
+.headnav {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #0599CF ;
+    padding: 10px 30px;
+    color: #FFF;
+    font-weight: bold;    
+}
+
+.linkbutton {
+    position: absolute;
+    left: 0; 
+    background-color:#FE3130;
+    justify-content: left;
+    border-radius: 20px;
+    padding: 8px;
+    max-width: 75px;
+    font-weight: 900;
+    font-size: 1.15rem;  
+}
+nav .linkbutton  {
+    max-height: 40px;
+    margin: 4px 20px;
+}
+
+.linkbutton a {
+    text-decoration: none;
+    color: #FFF;   
+}
+
+.linkbutton a:hover {
+    text-decoration: underline;
+}
+
+.headnav a, .social a {   
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    width: 20px;
+    padding: 3px;
+    color: #FFF;  
+    text-decoration: none;
+    text-align: center;    
+  }
+
+  footer {
+      background-color: #0599CF;
+      color: #FFF;
+      font-family: "Work Sans", sans-serif;    
+  }
+
+.footcontent img {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+ .footcontent {
+    text-align: center;
+    padding: 30px;    
+ }
+
+ .footcontent ul {
+    list-style: none; 
+    font-size: 1rem;  
+    padding: 0;   
+ }
+
+ .footcontent li {  
+     font-weight: bold;
+     list-style: none;      
+     padding: 10px 0; 
+ }
+
+ .footcontent a {
+     color: #FFF;
+     text-decoration: underline;   
+    
+ }
+
+ #contact a {
+     text-decoration: none;
+ }
+
+ #contact a:hover {
+    text-decoration: underline;
+}
+
+ .footcontent h3 {
+     font-family: "Oswald", sans-serif;
+     font-size: 2rem;
+     margin: 0 auto;
+ }
+
+ .footcontent h4 {
+     margin-top: 0;   
+ }
+
+ .footcontent h3,h4 {
+     text-align: center;
+ }
+
+ .copyright {
+     display: block;
+     background-color: #222e50;
+     width: 100%;
+     text-align: center;
+     padding: 6px 0 6px;
+     font-size: .9rem;
+ }
+
+ .update {
+     margin: 0 auto;
+ }
+
+.social {
+    text-align: center;  
+    font-size: 1rem;
+}
+
+.date {
+    font-family: "Work Sans", san-serif;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+main section {
+    border: 5px solid #FE3130;
+    border-radius: 15px;
+}
+
+.weather, .events, .services {
+    width: 300px;
+    border: 5px solid #FE3130;
+    border-radius: 15px;
+    margin: 30px auto;
+    justify-content: center;
+   
+}
+
+.mainbanner, .mission, .weather, .events, .services {
+    height: 300px;  
+}
+
