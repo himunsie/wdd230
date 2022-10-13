@@ -76,7 +76,18 @@ h2 {
 #topnav a:active {
     background-color: #fe4a49;
 }
-
+#menubutton span:nth-child(1) {
+    display: block;
+}
+#menubutton span:nth-child(2) {
+    display: none;
+}
+#menubutton.open span:nth-child(1) {
+    display: none;
+}
+#menubutton.open span:nth-child(2) {
+    display: block;
+}
 .logo {
     display: block;
     width: 300px;
