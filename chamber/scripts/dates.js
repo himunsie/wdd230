@@ -21,3 +21,23 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 
 datefield.innerHTML = `${fulldate}`;
 
+// display banner only on monday or tuesday
+
+const banner = document.querySelector(".banner")
+const day = new Date().getDay();
+
+if (day == 1 || day == 2) { 	
+	banner.style.display = "block";
+}
+else {
+	banner.style.display = "none";
+}
+
+
+
+
+
+
+
+
+

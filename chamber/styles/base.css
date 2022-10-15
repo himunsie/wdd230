@@ -247,6 +247,7 @@ nav .linkbutton  {
     text-align: left;
     padding: 40px 20px;
     border-radius: 15px;
+    position: relative;
     
 
 }
@@ -387,4 +388,14 @@ nav .linkbutton  {
     transform: translate(0, -50%); 
     
    
+}
+.banner {
+    position: static;
+    background-color: rgb(5,153,207, .7);
+    font-size: 1.25rem;
+    padding: 15px 0;
+    text-align: center;
+    margin: 30px -20px;
+    font-family: "Oswald", sans-serif;
+  
 }
