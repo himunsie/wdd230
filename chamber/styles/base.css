@@ -7,9 +7,7 @@ main {
     font-family: "Work Sans", sans-serif;
     text-align: center;  
 }
-section {
-    padding: 20px;
-}
+
 
 nav button {
     
@@ -100,7 +98,7 @@ h2 {
     /* position: absolute;
     top:0;
     left: 0;
-    right: 0; */
+    right: 0;  */
     margin: 0 auto;
     padding: .75rem 0 10px;
 }
@@ -213,7 +211,7 @@ nav .linkbutton  {
  .copyright {
      display: block;
      background-color: #222e50;
-     width: 100%;
+     justify-content: right;
      text-align: center;
      padding: 6px 0 6px;
      font-size: .9rem;
@@ -241,21 +239,28 @@ nav .linkbutton  {
 
 .hero {
     grid-row: 1;
-    background: url(https://placeimg.com/640/480/nature);
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     text-align: left;
-    padding: 40px 20px;
+    min-height: 300px;
     border-radius: 15px;
     position: relative;
-    
-
 }
+
+.heroimg img{
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+   
+}
+
+
 .hero h3 {
     text-align: left;
     font-size: 2rem;
     color: white;
     text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.69);
+    position: absolute;
+    padding: 0 20px;
     
 }
 .hero button{
@@ -263,13 +268,15 @@ nav .linkbutton  {
     border-radius: 10px;
     border: none;
     padding: 10px;
-    margin-top: 20px;
+    top: 50%;
+    left: 10%;
     width: fit-content;
     height: fit-content;
     text-decoration: none;
     font-family: "Oswald", sans-serif;
     font-size: 1.25rem;
     color: #FFF;  
+    position: absolute;
     
 }
 
@@ -280,9 +287,11 @@ nav .linkbutton  {
 
 .events {
     grid-row: 2;
+    
 }
 .weather {
     grid-row: 3;
+    
    
 }
 .news {
@@ -290,14 +299,15 @@ nav .linkbutton  {
 }
 .join {
     grid-row: 6;
-    margin-top: 30px;
-    
+    width: 98%;
+     
 }
 .calendar {
     width: 20%;
 }
 .joinimg, .weathericon {
     width: 30%;
+    margin-top: 15px;
 }
 
 .join button {
@@ -318,16 +328,20 @@ nav .linkbutton  {
 }
 
 .temp {
-    display: flex;
+    display: inline-flex;
+    justify-content: center;
    
 }
 .temp span{
-    font-size: 3rem ;
-    margin: 20px auto;
+    font-size: 2rem ;
+    margin: 15px;
+    
 }
 
 .sunimg {
-    max-width: 30%;
+    width: 25%;
+    height: auto;
+    margin: 0 20px;
 
 }
 
@@ -360,29 +374,32 @@ nav .linkbutton  {
     border: 4px solid #FE3130;
 }
 .news, .join, .weather, .events{
-    position: relative;
-    min-height: 300px;
+    position: relative; 
     
     
 }
 .join, .weather, .events{
     border: 4px solid #FE3130;
     border-radius: 15px;
+    min-height: 375px;  
     
-    
+}
+.weather p {
+   line-height: 5px;
+   
 }
 
 .news {
-    position: relative;
+    
     background-color: #ffbf46;
     border-radius: 15px;
-    margin-bottom: 30px;
+    
     min-height: 300px;
    
     
 }
 .newsrelease, .joinchamber, .currentweather, .eventscolumn {
-    margin: 0;
+    margin: 10px;
     position: absolute;              
     top: 50%;                        
     transform: translate(0, -50%); 
@@ -390,12 +407,14 @@ nav .linkbutton  {
    
 }
 .banner {
-    position: static;
-    background-color: rgb(5,153,207, .7);
-    font-size: 1.25rem;
+    
+    background-color: rgb(255,191,70, .9);
+    font-size: 1rem;
     padding: 15px 0;
     text-align: center;
-    margin: 30px -20px;
+    top: 70%;
     font-family: "Oswald", sans-serif;
+    position: absolute;
+    width: 100%;
   
 }

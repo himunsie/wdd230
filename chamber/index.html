@@ -31,7 +31,7 @@
             
         </nav>  
 
-        <a href="index.html"><img class="logo" src="images/somtnlogo.png" alt="logo"></a>
+        <a href="index.html"><img class="logo" src="images/logo.webp" alt="logo"></a>
         <h1>SOUTH MOUNTAIN</h1><h2>CHAMBER OF COMMERCE</h2>
         
         
@@ -44,7 +44,12 @@
     </header>
     <main>
         <section class="hero">
-            <!-- <img class="herophoto" src="images/heroimage.png" alt="chamber image"> -->
+            <picture class="heroimg">
+                <source srcset="images/wdd230hero400.jpg" media="(min-width:600px) and (max-width: 799px)">
+                <source srcset="images/wdd230hero800.jpg" media="(min-width:800px)">
+                <img src="images/wdd230hero250.jpg" alt="business meeting conference photo">
+            </picture>
+            
             <h3>South Mountain<br> Chamber of Commerce</h3>
             <div><button>Join the Chamber</button></div>
             <div class="banner">Join us for the Chamber meet & greet Wednesday at 7pm</div>
@@ -64,10 +69,12 @@
                 <img class="weathericon" src="images/weathericon.png" alt="weather icon">
             <h3>Weather</h3>   
                 <div class="temp"><img class="sunimg" src="images/sun.png" alt="weather photo">
-                <span>70 F</span>
+                <span class="degrees"> </span>
                 </div>
                 <div class="tempdetail"><span>Sunny</span>
-                   
+                    <hr>
+                    <p>Windspeed: <span class="windspeed"> </span> mph</p>
+                    <p>Wind Chill: <span class="windchill"> </span></p>
                 </div>
             </div>    
         </section>
@@ -117,7 +124,7 @@
     </main>
     <footer>
        <section class="footcontent">
-        <img class="logo" src="images/somtnlogo.png" alt="logo">
+        <img class="logo" src="images/logo.webp" alt="logo">
         <h3>SOUTH MOUNTAIN</h3><h4>CHAMBER OF COMMERCE</h4>
         <ul>
         <li id="map"><a href="#">15000 S Ashland Ridge Dr, Herriman, UT 84096</a></li>
@@ -134,5 +141,6 @@
     </footer>
     <script src="scripts/menu.js"></script>
     <script src="scripts/dates.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body> 
 </html>
