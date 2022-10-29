@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Mountain Chamber of Commerce</title>
+    <meta name="description" content="Chamber of commerce website for the South Mountain area">
+    <link href="favicon.ico" rel="icon">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+<body>
+    <header>
+        
+        <nav>
+            <div class="linkbutton"><a href="#">Join Now</a></div>
+            <button id="menubutton"><span>&#9776;</span><span>X</span></button>
+            <ul id="topnav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>   
+               
+            </ul>
+            
+        </nav>  
+
+        <a href="index.html"><img class="logo" src="images/logo.webp" alt="logo"></a>
+        <h1>SOUTH MOUNTAIN</h1><h2>CHAMBER OF COMMERCE</h2>
+        
+        
+        <div class="headnav">
+            <!-- <span id="timestamp"></span> -->
+            <span class="date"></span>
+            <div class="social"><a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                <a href="https://www.twitter.com/" class="fa fa-twitter"></a></div>
+        </div>
+    </header>
+    <main class="discover">
+        
+        <section class="welcome">
+            <h1>Discover South Mountain</h1>
+            <h3>You've come to the right place to find all the local listings for food, lodging, entertainment, and activities. Discover the best of South Mountain!</h3>
+            <p>Welcome to South Mountain! We are located at the base of South Mountain in the southwest corner of the Salt Lake valley. 
+                The South Mountain area is one of Utah's largest growing communities since 2010. Benefits of the area include beautiful homes, safe neighorhoods, and a tight-knit communtiy.
+                Also home to over 2,700 acres of open space, trails, park and our very own Blackridge Resevoir.
+                Explore a wide variety of outdoor activities: hiking, biking, horseback riding, disc golf, pickleball, ice skating, and many more. Enjoy our community events. Shop at many locally owned shops and restaurants.
+                Discover something for everyone to enjoy. </p>
+            <!-- <picture class="herriman"><img src="images/placeholder.png" data-src="images/herriman.webp" alt="event"></picture> -->
+        </section>
+        <section class="demographics">
+            <div class="population"><h3>Population</h3>
+                <p>53,693</p> </div>    
+            <div class="income"><h3>Income</h3>
+                <p>$104,248 Median Household Income</p></div>
+            <div class="families"><h3>Families</h3>
+                <p>4.00 Average Family Size</p></div>    
+            <div class="education"><h3>Education</h3>
+            <p>38.9% Bachelor's Degree or Higher</p></div>    
+            <div class="employment"><h3>Employment</h3>
+            <p>73.4% Employment Rate</p></div>
+            <div class="smallbusiness"><h3>Small Business</h3>
+            <p>622 Establishments with 5 employees or less</p></div>
+
+            
+            
+        </section>
+        <section class="highlights">
+            <picture><img src="images/placeholder.png" data-src="images/restaurant.webp" alt="restaurant"></picture>
+            <picture><img src="images/placeholder.png" data-src="images/stay.webp" alt="lodging"></picture>
+            <picture><img src="images/placeholder.png" data-src="images/shop.webp" alt="shopping"></picture>
+            <picture><img src="images/placeholder.png" data-src="images/play.png" alt="park"></picture>
+            <picture><img src="images/placeholder.png" data-src="images/event.webp" alt="event"></picture>
+        </section>
+        
+
+
+    </main>
+    <footer>
+       <section class="footcontent">
+        <img class="logo" src="images/logo.webp" alt="logo">
+        <h3>SOUTH MOUNTAIN</h3><h4>CHAMBER OF COMMERCE</h4>
+        <ul>
+        <li id="map"><a href="#">15000 S Ashland Ridge Dr, Herriman, UT 84096</a></li>
+        <li>888-234-5678</li>
+        <li id="contact"><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="social"><a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://www.twitter.com/" class="fa fa-twitter"></a></div>
+       </section>
+        <div class="copyright">
+        &copy; <span id="currentyear"></span>  SOUTH MOUNTAIN CHAMBER OF COMMERCE | HEIDI MUNSON | WDD230 Project
+        <p class="label">Number of Visits: <span id="visits"></span></p>
+        <p class="update">Last updated: <span id="timestamp"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/dates.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/lazyload.js"></script>
+</body> 
+</html>

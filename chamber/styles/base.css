@@ -216,6 +216,10 @@ nav .linkbutton  {
      padding: 6px 0 6px;
      font-size: .9rem;
  }
+ .label  {
+     padding: 0 50px;
+     margin: 0 ;
+ }
 
  .update {
      margin: 0 auto;
@@ -417,4 +421,33 @@ nav .linkbutton  {
     position: absolute;
     width: 100%;
   
+}
+.welcome {
+   
+    text-align: left;
+    margin: 0 30px;
+}
+.welcome h1 {
+    text-align: left;
+}
+
+
+.highlights img {
+    margin: 0 20px 20px;
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    
+}
+.disimage img{
+    border-radius: 15px;
+    box-shadow: 0 0 5px grey;
+
+}
+.demographics h3 {
+    background-color: #ffbf46;
+    
+    
+    border-radius: 10px;
+    padding: 10px;
 }
