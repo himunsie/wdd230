@@ -101,4 +101,27 @@
         box-shadow: 0 0 10px grey;
     }
    
+/* -------form css --------- */
+  .formbody {
+      grid-column: span 4;
+   
+      
+     
+  }
+  .joinmain h3{
+      grid-column: span 4;
+    
+      
+  }
+  .meminfo {
+      grid-column: span 4;
+        margin: 0 auto;
+     
+      
+  }
+  input, select, textarea {
+        
+        max-width: 30rem;
+}
+    
 }

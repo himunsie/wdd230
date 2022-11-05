@@ -134,5 +134,40 @@
     .highlights img:hover {
         width: 75%;
     }
+      
+/* -------form css --------- */
+    .joinmain {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 50px 1fr;
+    }   
+    
+    .joinmain h3{
+       grid-column: span 5;
+       
+     
+    }
+    .formbody {
+        border: none;
+       grid-column: 1;
+        width: 600px;
    
+} 
+   .meminfo {
+       margin: 27px 0 ;
+     
+       
+   }
+   
+   
+   .memlist {
+       padding: 20px 0;
+   }
+   input, select, textarea {
+    font-size: .9rem;
+    max-width: 30rem;
+    padding: .5rem;
+    
+  }
+    
 }
