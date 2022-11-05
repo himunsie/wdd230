@@ -451,3 +451,96 @@ nav .linkbutton  {
     border-radius: 10px;
     padding: 10px;
 }
+
+/* -------form css --------- */
+.formbody {
+    
+    padding: 0 1rem;
+    
+}
+form fieldset {
+    margin: 1rem 0;
+    border: 1px solid #0599CF;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    
+  }
+  
+  form legend {
+    color: #000;
+    margin: 0 auto;
+    padding: 0 .5rem;
+  }
+  p.require {
+    font-size: .8rem;
+    text-align: right;
+
+  }
+  label {
+    text-align: left;
+  }
+
+  form label.top, form label.mid , label {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1rem;
+   
+  }
+
+ input, select, textarea {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(201, 200, 200, 0.1);
+  }
+  
+  form input.submitBtn {
+    border: none;
+    background-color: #FE3130;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 auto 2rem ;
+    width: 75%;
+    max-width: 20rem;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.25rem;
+  }
+  form input.submitBtn:hover {
+    background-color: #fa0201;
+    box-shadow:0px 0px 4px 1px rgba(102, 101, 101, 0.2), 0 6px 20px 0 rgba(59, 59, 59, 0.19);
+  }
+  input:required {
+    border-left: #FE3130 solid 6px;
+  }
+
+  
+  input:required:valid {
+    border-left: #ffbf46 solid 6px;
+  }
+  fieldset li {
+      list-style: none;
+  }
+  .meminfo {
+   
+    border-radius: 15px;
+    background-color: #ffbf46;
+    max-width: 40rem;
+    max-height: 50rem;
+    text-align: center;
+}
+.meminfo hr {
+    
+    width: 75%;
+}
+.meminfo li {
+    
+    list-style: none;
+    padding-right: 40px;
+       
+}
