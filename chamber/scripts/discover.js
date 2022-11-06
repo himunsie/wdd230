@@ -1,6 +1,6 @@
 const visit = document.querySelector("#visits");
 
-let visitMessage = "This is your first visit to this page.";
+let visitMessage = "1st visit to this page.";
 
 let todayDate = new Date();
 
