@@ -92,14 +92,11 @@
         margin: 0;
        
     }
-    .highlights img {
-        width: 75%;
-        transition: width 1s;
-    }
+  
     .highlights img:hover {
-        width: 105%;
+       
         box-shadow: 0 0 10px grey;
-    }
+    } 
    
 /* -------form css --------- */
   .formbody {

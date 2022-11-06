@@ -127,13 +127,13 @@
         grid-column: 1;
 
     }
-    .highlights img {
+    /* .highlights img {
         width: 250px;
         
-    }
+    }*/
     .highlights img:hover {
-        width: 75%;
-    }
+        width: 65%;
+    } 
       
 /* -------form css --------- */
     .joinmain {
