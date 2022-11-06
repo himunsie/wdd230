@@ -1,15 +1,21 @@
-const visit = document.querySelector("#visits");
 
-let visitMessage = "1st visit to this page.";
-
-let todayDate = new Date();
-
-let lastVisitString = window.localStorage.getItem("last-visit");
-if (lastVisitString != null){
-    let lastVisitDate = new Date(lastVisitString);
-    let dateDifference = Math.floor((todayDate.getTime() - lastVisitDate.getTime()) / (24 * 60 * 1000));
-    visitMessage = `${dateDifference} day(s) ago`
+const numVisits = window.localStorage.getItem('lastvisit');
+if(numVisits === undefined) {
+    numVisits = new Date(Data.now());
 }
+const lastvisit = Date.parse(numVisits);
+const FACTOR = 1000 * 60 * 60 * 24;
 
-visit.textContent = visitMessage
-window.localStorage.setItem("last-visit", todayDate.toString());
+
+let daysbetween = Date.now() - lastvisit;
+let numberOfDays = daysbetween / FACTOR;
+
+window.localStorage.setItem('lastvisit', new Date(Date.now()));
+
+const daysSinceVisit = Math.floor(numberOfDays);
+    if(daysSinceVisit >= 1) {
+        document.getElementById('visits').textContent = `${daysSinceVisit} day(s) ago`;
+    }
+    else {
+        document.getElementById('visits').textContent = `1st Visit`;
+    }
