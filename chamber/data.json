@@ -1,0 +1,84 @@
+{
+    "chamberMembers": [
+      {
+        "name": "High View Builders",
+        "level": "Gold",
+        "address": "12 Street Ave, Herriman, UT, 84096",
+        "phone": "801-111-0987",
+        "email": "info@highviewbuilders.com",
+        "website": "https://highviewbuilders.com",
+        "imageurl": ""
+      },
+      {
+        "name": "Farm Market",
+        "level": "Gold",
+        "address": "3 North Ave, Herriman, UT, 84096",
+        "phone": "801-111-3456",
+        "email": "info@farmmarket.com",
+        "website": "https://farmmarket.com",
+        "imageurl": ""
+      },
+      {"name": "All Night Inn",
+        "level": "Gold",
+        "address": "10 Main Street, Herriman, UT, 84096",
+        "phone": "801-111-1234",
+        "email": "info@allnightinn.com",
+        "website": "https://allnightinn.com",
+        "imageurl": ""
+      },
+      {
+        "name": "Gideon's Diner",
+        "level": "Silver",
+        "address": "4 Main Street, Herriman, UT, 84096",
+        "phone": "801-111-7654",
+        "email": "info@gideonsdiner.com",
+        "website": "https://gideonsdiner.com",
+        "imageurl": ""
+      },
+      {
+        "name": "The Shoe Station",
+        "level": "Silver",
+        "address": "32 South Ave, Herriman, UT, 84096",
+        "phone": "801-111-4321",
+        "email": "info@theshoestation.com",
+        "website": "https://theshoestation.com",
+        "imageurl": ""
+      },
+      {
+        "name": "Xcorer Graphics",
+        "level": "Bronze",
+        "address": "23 North Ave, Herriman, UT, 84096",
+        "phone": "801-111-0189",
+        "email": "info@xcorergraphics.com",
+        "website": "https://xcorergraphics.com",
+        "imageurl": ""
+      },
+      {
+        "name": "Tate Gym",
+        "level": "Bronze",
+        "address": "8 Main Street, Herriman, UT, 84096",
+        "phone": "801-111-1083",
+        "email": "info@tategym.com",
+        "website": "https://tategym.com",
+        "imageurl": ""
+      },
+      {
+        "name": "Skye Rescue",
+        "level": "NP",
+        "address": "12 Northeast Ave, Herriman, UT, 84096",
+        "phone": "801-111-5647",
+        "email": "info@skyerescue.com",
+        "website": "https://skyerescue",
+        "imageurl": ""
+      },
+      {
+        "name": "The Bright Project",
+        "level": "NP",
+        "address": "18 Southwest Ave, Herriman, UT, 84096",
+        "phone": "801-111-3990",
+        "email": "info@thebrightproject.com",
+        "website": "https://thebrightproject.com",
+        "imageurl": ""
+      }
+    ] 
+}    
