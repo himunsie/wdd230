@@ -6,7 +6,7 @@
         "address": "12 Street Ave, Herriman, UT, 84096",
         "phone": "801-111-0987",
         "email": "info@highviewbuilders.com",
-        "website": "https://highviewbuilders.com",
+        "website": "https://www.highviewbuilders.com",
         "imageurl": "images/members/highview.png"
       },
       {
@@ -15,7 +15,7 @@
         "address": "3 North Ave, Herriman, UT, 84096",
         "phone": "801-111-3456",
         "email": "info@farmmarket.com",
-        "website": "https://farmmarket.com",
+        "website": "https://www.farmmarket.com",
         "imageurl": "images/members/farmmarket.png"
       },
       {"name": "All Night Inn",
@@ -23,7 +23,7 @@
         "address": "10 Main Street, Herriman, UT, 84096",
         "phone": "801-111-1234",
         "email": "info@allnightinn.com",
-        "website": "https://allnightinn.com",
+        "website": "https://www.allnightinn.com",
         "imageurl": "images/members/allnight.png"
       },
       {
@@ -32,7 +32,7 @@
         "address": "4 Main Street, Herriman, UT, 84096",
         "phone": "801-111-7654",
         "email": "info@gideonsdiner.com",
-        "website": "https://gideonsdiner.com",
+        "website": "https://www.gideonsdiner.com",
         "imageurl": "images/members/Gideons.png"
       },
       {
@@ -41,7 +41,7 @@
         "address": "32 South Ave, Herriman, UT, 84096",
         "phone": "801-111-4321",
         "email": "info@theshoestation.com",
-        "website": "https://theshoestation.com",
+        "website": "https://www.theshoestation.com",
         "imageurl": "images/members/shoestation.png"
       },
       {
@@ -50,7 +50,7 @@
         "address": "23 North Ave, Herriman, UT, 84096",
         "phone": "801-111-0189",
         "email": "info@xcorergraphics.com",
-        "website": "https://xcorergraphics.com",
+        "website": "https://www.xcorergraphics.com",
         "imageurl": "images/members/xcorer.png"
       },
       {
@@ -59,7 +59,7 @@
         "address": "8 Main Street, Herriman, UT, 84096",
         "phone": "801-111-1083",
         "email": "info@tategym.com",
-        "website": "https://tategym.com",
+        "website": "https://www.tategym.com",
         "imageurl": "images/members/tategym.png"
       },
       {
@@ -68,8 +68,8 @@
         "address": "12 Northeast Ave, Herriman, UT, 84096",
         "phone": "801-111-5647",
         "email": "info@skyerescue.com",
-        "website": "https://skyerescue",
-        "imageurl": "images/members/skyrescue.png"
+        "website": "https://www.skyerescue",
+        "imageurl": "images/members/skyerescue.png"
       },
       {
         "name": "The Bright Project",
@@ -77,7 +77,7 @@
         "address": "18 Southwest Ave, Herriman, UT, 84096",
         "phone": "801-111-3990",
         "email": "info@thebrightproject.com",
-        "website": "https://thebrightproject.com",
+        "website": "https://www.thebrightproject.com",
         "imageurl": "images/members/brightproject.png"
       }
     ] 

@@ -120,5 +120,15 @@
         
         max-width: 30rem;
 }
-    
+
+/* ----- directory css ----- */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.list section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 }

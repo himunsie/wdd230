@@ -547,3 +547,101 @@ form fieldset {
     padding-right: 40px;
        
 }
+/* ---- directory css ---- */
+.directory {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.directory h1 {
+    grid-column: 1/6;
+    font-size: 1.75rem;
+}
+.cards {
+    max-width: 80%;
+    margin: 0 auto;
+    grid-column: 1/6;
+    
+    
+    
+  }
+  
+.directory section {
+    margin: 0.25rem .25rem 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border: 2px solid #0599CF;
+    border-radius: 15px;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 8px rgba(102, 101, 101, 0.2);
+   
+  }
+ 
+  
+  .cards img {
+    width: auto;
+    max-width: 325px;
+    height: 100px;
+    margin: 10px 0;
+  }
+  .cards p {
+      margin: 5px;
+  }
+  .cards a, .list a {
+      margin: 10px 10px;
+      text-decoration: none;
+      color: #0599cf;
+  }
+  a:hover {
+      text-decoration: none;
+      color: #FE3130;
+  }
+
+  .list {
+      border: .5px solid #0599cf;
+      grid-column: 1/6;
+      box-shadow: 0 0 8px rgba(102, 101, 101, 0.2);
+      
+  }
+
+.list section {
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    border-radius: 0;
+    
+    
+}
+
+.list section:nth-child(odd){
+    background-color:#E6F3FC;
+}
+.list section p {
+    margin: 3px;
+    
+}
+ .list img {
+     display: none;
+ }
+.toggleBtns {
+    grid-column: 1/6;
+    margin: 15px;
+
+}
+
+#gridBtn, #listBtn {
+    width: 50px;
+    height: 50px;
+    background-color: #0599CF;
+    border: none;
+    border-radius: 2px;
+    margin: 0 3px;
+}
+#gridBtn:hover, #listBtn:hover {
+    box-shadow: 0 0 8px rgba(50, 50, 93, 0.25);
+    width: 52px;
+    height: 52px;
+    
+    
+}    
