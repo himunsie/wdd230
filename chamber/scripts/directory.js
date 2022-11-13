@@ -52,38 +52,7 @@ fetch(requestURL)
         // Add/append the existing HTML div with the cards class with the section(card)
         cards.appendChild(card);
       };
-/* 
-    function displayList(member) {
-        // Create elements to add to the document
-        let memList = document.createElement('section');
-        // memList.classList.add("memList");
-        let busName = document.createElement('h3');
-        let web = document.createElement('a');
-        let address = document.createElement('p');
-        let phone = document.createElement('p');
 
-      
-        // Change the textContent property of the h2 element to contain the prophet's full name
-        busName.textContent = ` ${member.name}`;
-        web.textContent = ` ${member.website}`;
-        address.textContent =` ${member.address}`;
-        phone.textContent = `${member.phone}`;
-
-        // Build the website link attribute 
-
-        web.setAttribute('href', member.website);
-        web.setAttribute('target', 'blank');
-      
-        // Add/append the section(card) with the h2 element
-        memList.appendChild(busName);
-        memList.appendChild(address);
-        memList.appendChild(phone);
-        memList.appendChild(web);
-      
-        // Add/append the existing HTML div with the cards class with the section(card)
-        list.appendChild(memList);
-      };  
- */
 //toggle list view
 
 const gridButton = document.querySelector('#gridBtn');

@@ -130,5 +130,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+.directory h1, .cards, .toggleBtns, .list {
+    grid-column: 1/6;
+}
 
 }

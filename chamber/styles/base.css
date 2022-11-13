@@ -548,21 +548,16 @@ form fieldset {
        
 }
 /* ---- directory css ---- */
-.directory {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-}
+
 .directory h1 {
-    grid-column: 1/6;
+    grid-column: 1;
     font-size: 1.75rem;
 }
 .cards {
-    max-width: 80%;
+    max-width: 95%;
     margin: 0 auto;
-    grid-column: 1/6;
-    
-    
-    
+    grid-column: 1;
+
   }
   
 .directory section {
@@ -600,7 +595,7 @@ form fieldset {
 
   .list {
       border: .5px solid #0599cf;
-      grid-column: 1/6;
+      grid-column: 1;
       box-shadow: 0 0 8px rgba(102, 101, 101, 0.2);
       
   }
@@ -610,7 +605,7 @@ form fieldset {
     box-shadow: none;
     margin: 0;
     border-radius: 0;
-    
+    text-align: left;
     
 }
 
@@ -625,7 +620,7 @@ form fieldset {
      display: none;
  }
 .toggleBtns {
-    grid-column: 1/6;
+    grid-column: 1;
     margin: 15px;
 
 }
