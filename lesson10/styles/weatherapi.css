@@ -1,0 +1,33 @@
+body {
+    font-family: Trebuchet MS;
+    text-align: center;
+}
+footer {
+    margin: 10px auto;
+    padding: 10px;
+    
+}
+h1 {
+    color:steelblue;
+    text-shadow: 3px 3px 6px rgba(1, 1, 1, .2);
+    
+}
+h1, h2 {
+    font-family: Helvetica;
+}
+div, footer {
+    border-top: 1px solid lightsteelblue;
+    max-width: 75%;
+    margin: 10px auto;
+   
+}
+
+figcaption {
+    letter-spacing: 2px;
+}
+#current-temp {
+    font-size: 1.5rem;
+    
+}
+
+
