@@ -296,6 +296,7 @@ nav .linkbutton  {
 .weather {
     grid-row: 3;
     
+    
    
 }
 .news {
@@ -311,7 +312,7 @@ nav .linkbutton  {
 }
 .joinimg, .weathericon {
     width: 30%;
-    margin-top: 15px;
+   
 }
 
 .join button {
@@ -400,6 +401,7 @@ nav .linkbutton  {
     min-height: 375px;  
     
 }
+
 .weather p {
    line-height: 5px;
    
@@ -407,6 +409,9 @@ nav .linkbutton  {
 figcaption {
     letter-spacing: 3px;
     margin: 0 0 20px 0;
+}
+.currentweather {
+    padding: 15px;
 }
 
 .news {
@@ -418,8 +423,8 @@ figcaption {
    
     
 }
-.newsrelease, .joinchamber, .currentweather, .eventscolumn {
-    margin: 10px;
+.newsrelease, .joinchamber, .eventscolumn {
+    margin: 15px;
     position: absolute;              
     top: 50%;                        
     transform: translate(0, -50%); 
