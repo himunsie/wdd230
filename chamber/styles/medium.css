@@ -55,6 +55,7 @@
     .weather {
         grid-row: 5;
         grid-column: 3;
+        
     }
 
     #topnav a {        
