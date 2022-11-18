@@ -25,11 +25,14 @@ async function apiFetch() {
 
 
   function  displayResults(weatherData) {
-    currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
+    currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`; //toFixed(0) is non
   
-    const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+    const iconsrc = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`;
     const desc = weatherData.weather[0].description;
-  
+    
+
+    // weatherIcon.src = iconsrc;
+    // weatherIcon.alt = desc;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc.toUpperCase();

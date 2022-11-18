@@ -332,13 +332,25 @@ nav .linkbutton  {
 }
 
 .temp {
-    display: inline-flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   /*  display: inline-flex;
+    justify-content: center; */
    
 }
+.temp img {
+    grid-column: 1;
+    margin: 0 0 20px 50px;
+}
 .temp span{
+    grid-column: 2;
     font-size: 2rem ;
-    margin: 15px;
+    margin: 30px 50px 0 0;
+    
+}
+.tempdetail {
+    
+    padding: 0 20px;
     
 }
 
@@ -391,6 +403,10 @@ nav .linkbutton  {
 .weather p {
    line-height: 5px;
    
+}
+figcaption {
+    letter-spacing: 3px;
+    margin: 0 0 20px 0;
 }
 
 .news {
