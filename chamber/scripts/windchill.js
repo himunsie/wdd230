@@ -1,6 +1,6 @@
 
 const weatherIcon = document.querySelector('#weather-icon');
-const captionDesc = document.querySelector('figcaption');
+const captionDesc = document.querySelector('#weathertype');
 const windChill = document.querySelector(".windchill");
 const temp = document.querySelector(".degrees");
 const wSpeed = document.querySelector(".windspeed");
@@ -29,7 +29,7 @@ apiFetch();
 
 
 function  displayResults(weatherData) {
-    temp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}&deg;F</strong>`; //toFixed(0) is non
+    temp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}&deg;</strong>F`; //toFixed(0) is non
   
     const iconsrc = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`;
     const desc = weatherData.weather[0].description;
@@ -41,7 +41,7 @@ function  displayResults(weatherData) {
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc.toUpperCase();
     wSpeed.textContent = `Wind Speed: ${Math.round(weatherData.wind.speed)} mph`;
-    windChill.textContent = `Wind Chill: ${windchill(weatherData.main.temp, weatherData.wind.speed)}`;
+    windChill.textContent = `Wind Chill: ${windchill(weatherData.main.temp, weatherData.wind.speed)}° F`;
     
   }
 
