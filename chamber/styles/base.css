@@ -168,16 +168,18 @@ nav .linkbutton  {
     padding: 30px;    
  }
 
- .footcontent ul {
+ .footcontent ul, .contactmain  ul {
     list-style: none; 
     font-size: 1rem;  
     padding: 0;   
+    
  }
 
  .footcontent li {  
      font-weight: bold;
      list-style: none;      
      padding: 10px 0; 
+     
  }
 
  .footcontent a {
@@ -186,11 +188,11 @@ nav .linkbutton  {
     
  }
 
- #contact a {
+ #contact a, .contactmain a {
      text-decoration: none;
  }
 
- #contact a:hover {
+ #contact a:hover, .contactmain a:hover {
     text-decoration: underline;
 }
 
@@ -487,6 +489,7 @@ form fieldset {
     border: 1px solid #0599CF;
     border-radius: 10px;
     padding: .5rem 2%;
+    box-shadow: 0 0 8px rgba(102, 101, 101, 0.2);
     
   }
   
@@ -539,7 +542,7 @@ form fieldset {
     background-color: #fa0201;
     box-shadow:0px 0px 4px 1px rgba(102, 101, 101, 0.2), 0 6px 20px 0 rgba(59, 59, 59, 0.19);
   }
-  input:required {
+  input:required, select:required {
     border-left: #FE3130 solid 6px;
   }
 
@@ -661,3 +664,33 @@ form fieldset {
     
     
 }    
+/* ---- contact css ---- */
+
+form fieldset {
+    background-color: white;
+    padding: 20px;
+}
+.visit {
+    margin: 0 auto;
+    text-align: left;
+    background-color: #ffbf46;
+    border-radius: 15px;
+   
+    padding: 0 30px;
+}
+.contactmain h4 {
+    font-size: 1.25rem;
+}
+.contactmain h5 {
+    font-size: 1rem;
+}
+.hours {
+    text-align: center;
+    font-size: 1.1rem;
+}
+.contactmain a {
+    color: black;
+}
+.contactmain a:hover {
+    color: #fa0201;
+}

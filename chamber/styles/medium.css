@@ -101,6 +101,8 @@
    
 /* -------form css --------- */
   .formbody {
+      
+     
       grid-column: span 4;
    
       
@@ -135,4 +137,13 @@
     grid-column: 1/6;
 }
 
+
+
+/* ----- contact css ----- */
+.contactmain h1, .visit {
+    grid-column: span 4;
 }
+
+
+}
+
