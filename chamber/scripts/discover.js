@@ -17,5 +17,5 @@ const daysSinceVisit = Math.floor(numberOfDays);
         document.getElementById('visits').textContent = `${daysSinceVisit} day(s) ago`;
     }
     else {
-        document.getElementById('visits').textContent = `1st Visit`;
+        document.getElementById('visits').textContent = `0 day(s) ago`;
     }

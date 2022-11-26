@@ -149,18 +149,21 @@
     grid-template-columns: 50px 1fr 1fr;
     grid-gap: 2em;
 }
-.contactmain h1, .visit {
-    grid-column: span 3;
+.contactmain h1 {
+    grid-column: span 4;
+}
+.contactmain .formbody {
+    grid-column: span 4;
 }
 .visit {
-    grid-column: 1;
-    width: 400px;
-    margin: 10px 0 0 50px;
+    grid-column: span 3;
+   min-width: 150px;
+    margin: 20px;
 
 }
 .staff {
-    grid-column: 3;
-    margin: 10px auto;
+    grid-column: 4;
+    margin: 20px auto;
     min-width: 200px;
 }
 
