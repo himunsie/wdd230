@@ -119,10 +119,10 @@ h2 {
     position: absolute;
     left: 0; 
     background-color:#FE3130;
-    justify-content: left;
-    border-radius: 15px;
+    
+    border-radius: 10px;
     padding: 8px 10px;
-    max-width: 75px;
+    max-width: 150px;
     font-weight: bold;
     font-size: 1.15rem;  
 }
@@ -138,6 +138,7 @@ nav .linkbutton  {
 
 .linkbutton a:hover {
     text-decoration: underline;
+    color: #fff;
     
 }
 
@@ -269,27 +270,32 @@ nav .linkbutton  {
     padding: 0 20px;
     
 }
-.hero button{
+.hero .linkbutton{
     background-color: #FE3130;
     border-radius: 10px;
     border: none;
     padding: 10px;
-    top: 50%;
-    left: 10%;
-    width: fit-content;
-    height: fit-content;
+    top: 40%;
+    left: 5%;
     text-decoration: none;
     font-family: "Oswald", sans-serif;
     font-size: 1.25rem;
     color: #FFF;  
     position: absolute;
     
+    
 }
 
-.hero button:hover {
+.hero .linkbutton:hover, .join .linkbutton:hover {
     background-color: #fa0201;
     box-shadow:0px 0px 4px 1px rgba(250, 250, 250, 0.2), 0 6px 20px 0 rgba(253, 252, 252, 0.19);
+    color: white;
 }
+.join .linkbutton {
+    position: fixed;
+    left: 37%;
+}
+
 
 .events {
     grid-row: 2;
@@ -317,28 +323,12 @@ nav .linkbutton  {
    
 }
 
-.join button {
-    background-color: #FE3130;
-    border-radius: 10px;
-    border: none;
-    padding: 10px;
-    width: fit-content;
-    height: fit-content;
-    text-decoration: none;
-    font-family: "Oswald", sans-serif;
-    font-size: 1.25rem;
-    color: #FFF;    
-}
-.join button:hover {
-    background-color: #fa0201;
-    box-shadow:0px 0px 4px 1px rgba(102, 101, 101, 0.2), 0 6px 20px 0 rgba(59, 59, 59, 0.19);
-}
+
 
 .temp {
     display: grid;
     grid-template-columns: 1fr 1fr;
-   /*  display: inline-flex;
-    justify-content: center; */
+
    
 }
 .temp img {
@@ -385,17 +375,17 @@ nav .linkbutton  {
     padding: 40px 10px;
      height: 250px;
      margin-bottom: 40px;
+     
+}
+.events a, .spot1 a,.spot2 a, .spot3 a{
+    text-decoration: none;
+    color: #0599cf;
 }
 .spot3 {
     display: none;
 }
 
-.spot1:hover, .spot2:hover, .spot3:hover {
-    
-    border-radius: 15px;
-    
-    border: 4px solid #FE3130;
-}
+
 .news, .join, .weather, .events{
     position: relative; 
     

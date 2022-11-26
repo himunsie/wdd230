@@ -45,6 +45,10 @@
         width: auto;
       
     }
+    .join .linkbutton {
+        
+        left: 43%;
+    }
 
     .events {
         grid-row: 5;

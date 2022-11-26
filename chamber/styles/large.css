@@ -27,6 +27,9 @@
         grid-row: 3;
        
     }
+    .join .linkbutton {        
+        left: 31%;
+    }
 
     .hero {
         grid-column: 2/4;
@@ -57,7 +60,11 @@
    .spot3{
        display: block;
    }
+   .spot1:hover, .spot2:hover, .spot3:hover {
+    box-shadow: 0 0 8px rgba(102, 101, 101, 0.2);
+ 
 
+}
   
     nav button {
         display: none;
@@ -105,9 +112,9 @@
     .hero h3 {
         top: 8%;
     }
-    .hero button {
+    .hero .linkbutton {
         left: 5%;
-        top: 25%;
+        top: 30%;
     }
     .discover {
         display: grid;
