@@ -677,9 +677,10 @@ form fieldset {
 }
 .contactmain h5 {
     font-size: 1rem;
+    margin-bottom: 0;
 }
 .hours {
-    text-align: center;
+    text-align: left;
     font-size: 1.1rem;
 }
 .contactmain a {

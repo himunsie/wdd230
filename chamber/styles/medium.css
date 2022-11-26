@@ -158,13 +158,14 @@
 .visit {
     grid-column: span 3;
    min-width: 150px;
+   height: 300px;
     margin: 20px;
 
 }
 .staff {
     grid-column: 4;
     margin: 20px auto;
-    min-width: 200px;
+    
 }
 
 
