@@ -53,17 +53,12 @@
         flex-direction: column;
         gap: 0;
     }
-    .spotlight2 {
-        border-top: 4px solid #fE3130;
-        border-left: none;
-    }
-   .spotlight3{
+    
+   .spot3{
        display: block;
    }
 
-   .spotlight1, .spotlight2, .spotlight3{
-       min-height: 360px;
-   }
+  
     nav button {
         display: none;
     }

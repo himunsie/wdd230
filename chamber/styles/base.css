@@ -375,21 +375,25 @@ nav .linkbutton  {
 
 .spotlights img {
     width: 50%;
-    border-radius: 15px;
-    box-shadow:0px 0px 4px 1px rgba(2, 0, 0, 0.2), 0 6px 20px 0 rgba(92, 91, 91, 0.19)
+   
     
 }
 .spotlights hr {
     width: 90%;
 }
-.spotlight2, .spotlight3 {
-    border-top: 4px solid #FE3130;   
+.spot1,.spot2, .spot3 {
+    padding: 40px 10px;
+     height: 250px;
+     margin-bottom: 40px;
+}
+.spot3 {
+    display: none;
 }
 
-.spotlight1:hover, .spotlight2:hover, .spotlight3:hover {
+.spot1:hover, .spot2:hover, .spot3:hover {
     
     border-radius: 15px;
-    background-color: #0599CF;
+    
     border: 4px solid #FE3130;
 }
 .news, .join, .weather, .events{
