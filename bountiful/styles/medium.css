@@ -1,0 +1,33 @@
+@media only screen and (min-width: 35rem) {
+    .footcontent {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .copyright {
+        grid-row: 2;
+        grid-column: 1/5;
+    }
+    .copyright p {
+        margin: 3px;
+    }
+   
+    #footnav, .footsocial, .contactdata{
+        margin: auto auto;
+        text-align: left;
+    }
+    #footnav {
+        display: block; 
+    }
+    #footnav h4 {
+        padding-top: 20px;
+    }
+    .contactdata {
+        margin-left: 20px;
+    }
+    .footsocial {
+        position: relative;
+        top: 30%;
+    }
+  
+  
+}

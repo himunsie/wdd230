@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Market</title>
+    <meta name="description" content="Bountiful Fresh Organic Market">
+    <link href="favicon.ico" rel="icon">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+</head> 
+<body>
+    <header>
+        <div class="social">
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+            <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+        </div>
+
+        <a href="index.html"><img class="logo" src="images/bountifullogo.webp" alt="logo"></a>
+        
+        <nav>            
+            <button id="menubutton"><span>&#9776;</span><span>&#x2716;</span></button>
+            <ul id="topnav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about.html">About</a></li>
+               
+            </ul>          
+        </nav>
+        
+    </header>
+    <main>
+        <section class="hero">
+            <picture class="heroimg">
+                <source srcset="images/marketphotomed.png" media="(min-width:600px) and (max-width: 799px)">
+                <source srcset="images/marketphotolarge.png" media="(min-width:800px)">
+                <img src="images/marketphotosmall.png" alt="bountiful market main photo">
+            </picture>
+            
+        </section>  
+       
+    </main>
+    <footer>
+        <section class="footcontent">
+         <a href="index.html"><img class="logo" src="images/bountifullogo.webp" alt="logo"></a>
+         <div class="contactdata">
+             <h4>Bountiful Market</h4>
+             <p>500 Farm Road<br>Carlsbad, CA 92008</p>
+             <a href="tel:+18012221234" title="tel:+18012221234">801-222-1234</a>
+         </div>    
+         <div id="footnav">
+             <h4>MENU</h4>
+             <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="fresh.html">Fresh</a></li>
+                 <li><a href="about.html">About</a></li>    
+             </ul>  
+         </div>
+         <div class="footsocial">
+             <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+             <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+             <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+         </div>
+         
+        </section>
+        
+         <div class="copyright">
+         &copy; <span id="currentyear"></span>  BOUNTIFUL MARKET | HEIDI MUNSON | WDD230 Final Project
+         <p class="update">Last updated: <span id="timestamp"></span></p>
+         </div>
+     </footer>
+    <script src="scripts/dates.js"></script>
+    <script src="scripts/menu.js"></script>
+    
+</body> 
+</html>
