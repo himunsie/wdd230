@@ -1,0 +1,54 @@
+@media only screen and (min-width: 64rem) {
+    nav button {
+        display: none;
+    }
+    nav {
+        display: flex;
+        justify-content: right;
+        margin: auto auto;
+    
+    }
+    nav ul#topnav {
+        display: flex;
+    }
+    
+    #topnav {       
+        margin: 0 30px;
+    }
+    #topnav li {
+     
+        flex: 1 1 auto;
+    }
+    #topnav a {
+        text-align: center;
+        margin: 3px;
+        background-color: #fff;
+    }
+    #topnav a:hover {
+        text-decoration: underline;
+        background-color:#fff;
+        color:#D98B55;
+        
+    }  
+    header {
+        display: flex;
+       
+    }
+    .social {
+        position: absolute;
+        right: 0;
+    }
+    .logo {
+      
+        width: 155px;        
+        margin: 5px 100px;
+    }
+    footer {
+        margin: 0 100px;
+    }
+    footer .logo {
+        margin: 0 auto;
+    }
+   
+
+}
