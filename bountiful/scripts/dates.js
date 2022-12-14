@@ -1,6 +1,6 @@
 // last modified timpstamp
 document.getElementById("timestamp").textContent = document.lastModified;
-//document.getElementById("visits").textContent = 0;
+
 
 // current year
 let year = new Date().getFullYear()
@@ -16,9 +16,9 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 	now
 );
 
-// long, medium, short options ... try them
 
-datefield.innerHTML = `${fulldate}`;
+
+// datefield.innerHTML = `${fulldate}`;
 
 
 

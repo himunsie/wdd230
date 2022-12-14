@@ -38,18 +38,101 @@
     </header>
     <main>
         <section class="hero">
+            <h1>Bountiful Fresh Market</h1>
             <picture class="heroimg">
                 <source srcset="images/marketphotomed.png" media="(min-width:600px) and (max-width: 799px)">
                 <source srcset="images/marketphotolarge.png" media="(min-width:800px)">
                 <img src="images/marketphotosmall.png" alt="bountiful market main photo">
             </picture>
-        </section>    
-          
+         
+            
+            <p>Farm fresh organic produce</p>
+            <div class="linkbutton"><a href="fresh.html">Order Fresh Smoothie</a></div>
+       
+        </section>   
+       
+        <section class="products">
+            <h2>Produce of the Week</h2>
+        
+            <div class="container">
+               
+            <img src="images/avocado.webp" alt="avocado photo">
+            <div class="overlay">
+                <p class="text">$1.50/ea</p>
+                </div>
+            </div>  
+            <div class="container">      
+              <img src="images/strawberry.webp" alt="strawberry photo">
+              <div class="overlay">
+                   <p class="text">$4.99/ea</p>
+                 </div>
+            </div>     
+            <div class="container">     
+                <img src="images//oranges.webp" alt="oranges photo">
+                <div class="overlay">
+                   <p class="text">$1.25/lb</p>
+                 </div>
+            </div>
+            
+        </section>
+        <section class="farmcontainer">
+            <h2>Discover our Local Farms</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, repellat? Modi quibusdam delectus aliquam laboriosam nostrum necessitatibus voluptate, veritatis ipsa iste accusamus impedit corrupti esse maiores iure animi adipisci eveniet.</p>
+            <div class ="farm1">
+                <h3>Sunset Farms</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia autem sapiente repudiandae ipsam dolore fugiat nobis perspiciatis fuga soluta? Ea?</p>
+                <img src="images/sunsetfarm.webp" alt="sunset farms photo">     
+            </div>
+         
+            <div class="farm2">
+                <h3>Grant Family Farm</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, quidem minima? Sunt non sint quis sit mollitia debitis exercitationem velit.</p>
+                <img src="images/grantfarm.webp" alt="grant family farm">
+            </div>
+        </section> 
+        <section class="weather">
+            <h3>Calsbad Weather</h3>
+            
+                <div class="currentweather">
+                   
+                <h4>Today</h4>  
+
+                    <img src="https://via.placeholder.com/50" alt="icon placeholder" id="weather-icon" >
+                    
+                    <p id="weathertype"></p>
+                    <div class="degrees"> </div>
+                   
+                    <div class="tempdetail">
+                        <p class="humidity"></p>
+                    </div>
+                </div>    
+            
+            <h3>3 Day Weather Forcast</h3>   
+          <div class="forecast">
+              <div class="forecast1">
+                <h4 id="weekday1"></h4>
+                    <img id="icon1">
+                    <div id="day1"></div>
+                </div>   
+                <hr>  
+                <div class="forecast2">
+                    <h4 id="weekday2"></h4>
+                        <img id="icon2">
+                        <div id="day2"></div>
+                    </div>   
+                    <hr> 
+                    <div class="forecast3">
+                        <h4 id="weekday3"></h4>
+                            <img id="icon3">
+                            <div id="day3"></div>
+                        </div>    
+                </div>
+              </section>  
        
     </main>
     <footer>
        <section class="footcontent">
-        <a href="index.html"><img class="logo" src="images/bountifullogo.webp" alt="logo"></a>
+        <a href="index.html"><img class="logo" src="images/bountifullogo-foot.webp" alt="logo"></a>
         <div class="contactdata">
             <h4>Bountiful Market</h4>
             <p>500 Farm Road<br>Carlsbad, CA 92008</p>
@@ -78,6 +161,7 @@
     </footer>
     <script src="scripts/dates.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/weather.js"></script>
     
 </body> 
 </html>

@@ -38,18 +38,129 @@
     </header>
     <main>
         <section class="hero">
+            <h1>Bountiful Fresh Market</h1>
             <picture class="heroimg">
-                <source srcset="images/marketphotomed.png" media="(min-width:600px) and (max-width: 799px)">
-                <source srcset="images/marketphotolarge.png" media="(min-width:800px)">
-                <img src="images/marketphotosmall.png" alt="bountiful market main photo">
+                <source srcset="images/freshheromed.webp" media="(min-width:600px) and (max-width: 799px)">
+                <source srcset="images/freshherolarge.webp" media="(min-width:800px)">
+                <img src="images/freshherosmall.webp" alt="bountiful market main photo">
             </picture>
-            
+            <p>Market Fresh Fruit Mixers</p>
         </section>  
+        
+
+
+            <div class="formbody">
+                <h2>Order your Market Fresh Fruit Mixer</h2>
+                <form class="fruitform" name="orderform" method="get" action="">
+                  <fieldset>
+                    <h3>Market Mixer Order Form</h3>
+                    <p class="require">* required field</p>
+                      <label class="top" for="fname">*First Name:<input type="text" id="fname" name="fname" required></label>
+                      <label class="top" for="tel">*Cell Phone:<input type="text" id="tel" name="tel" placeholder="123456789"
+                    required></label>
+                      <label class="top" for="email">*Email:<input type="text" id="email" name="email" placeholder="name@mail.com" required></label>
+                      <input type="hidden" id="orderDate" name="formDate" value="Date();">
+                  </fieldset>
+                  <fieldset class="selection">  
+                      <h4>Select Up To 3 Fruits</h4>
+                      
+                    <label class="selection1" for="fruit1">Fruit #1:</label>
+                    <select id="dropdown1" name="dropdown1">
+                        <option value="default">Select Fruit</option>    
+                    </select>
+                    <label class="selection2" for="fruit2">Fruit #2:</label>
+                    <select id="dropdown2" name="fruit1">
+                        <option value="default">Select Fruit</option>
+                    </select>
+                    <label class="selection3"for="fruit3">Fruit #3:</label>
+                    <select id="dropdown3" name="fruit1">
+                        <option value="default">Select Fruit</option>
+                    </select>
+                    </fieldset>
+                    <fieldset>
+                            <label for="comments">Special Instructions:</label><textarea id="comments" name="comments" rows="6" cols="30"></textarea> 
+        
+                      </fieldset>  
+                    
+                  </fieldset>  
+                  <input onclick="displayOrder(); clickCounter(); return false" type="submit" value="SUBMIT" class="submitBtn" >  <!--add onclick="displayOrder()"-->
+                 </form>
+                 </div>
+          
+        <section class="response">
+            <div class="formresponse">
+                <h2>Thank you for your Order</h2>
+                <p><span id="firstname"></span> your Market Mixer order was recieved at <span id="clickDate"></span></p>
+                <p>Order includes: 
+                    <br>
+                    <span id="fruit1"></span>
+                    <br>
+                    <span id="fruit2"></span>
+                    <br>
+                    <span id="fruit3"></span>
+                    <br>
+                    <span id="spcrequests"></span>
+                </p>
+                <p>This is your <span id="ordercount"></span> Market Mixer order. </p>
+        
+            </div>
+            <table>
+                
+        
+            <thead>
+                <tr>
+                    <th colspan="5" scope="colgroup">Fruit Nutritions</th>
+                </tr>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col"><span id="fruit1">fr1</span></th>
+                    <th scope="col"><span id="fruit2">fr2</span></th>
+                    <th scope="col"><span id="fruit3">fr3</span></th>
+                    <th scope="col"><span id="total">Total</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sugars</td>
+                    <td><span id="sugar1">1</span></td>
+                    <td><span id="sugar2">2</span></td>
+                    <td><span id="sugar3">3</span></td>
+                </tr>
+                <tr>
+                    <td>Proteins</td>
+                    <td><span id="protein1">1</span></td>
+                    <td><span id="protein2">2</span></td>
+                    <td><span id="protein3">3</span></td>
+                </tr>
+                <tr>
+                    <td>Carbohydates</td>
+                    <td><span id="carb1">1</span></td>
+                    <td><span id="carb2">2</span></td>
+                    <td><span id="carb3">3</span></td>
+                </tr>
+                <tr>
+                    <td>Calories</td>
+                    <td><span id="calories1">1</span></td>
+                    <td><span id="calories2">2</span></td>
+                    <td><span id="calories3">3</span></td>
+                </tr>
+                
+                
+            </tbody>
+        </table>
+
+        </section>
+        <section class="highlights">
+            <picture><img src="images/placeholder.webp" data-src="images/fruitmixerphoto.webp" alt="fruit drink photo"></picture>
+            <picture><img src="images/placeholder.webp" data-src="images/fruitdrink.webp" alt="fruit drink photo"></picture>
+            <picture><img src="images/placeholder.webp" data-src="images/fruitdrinkmixer.webp" alt="fruit drink photo"></picture>
+            
+        </section>
        
     </main>
     <footer>
         <section class="footcontent">
-         <a href="index.html"><img class="logo" src="images/bountifullogo.webp" alt="logo"></a>
+         <a href="index.html"><img class="logo" src="images/bountifullogo-foot.webp" alt="logo"></a>
          <div class="contactdata">
              <h4>Bountiful Market</h4>
              <p>500 Farm Road<br>Carlsbad, CA 92008</p>
@@ -63,6 +174,7 @@
                  <li><a href="about.html">About</a></li>    
              </ul>  
          </div>
+         
          <div class="footsocial">
              <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
              <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
@@ -78,6 +190,8 @@
      </footer>
     <script src="scripts/dates.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/fresh.js"></script>
+    <script src="scripts/lazyload.js"></script>
     
 </body> 
 </html>

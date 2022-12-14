@@ -38,18 +38,61 @@
     </header>
     <main>
         <section class="hero">
+            <h1>Bountiful Fresh Market</h1>
             <picture class="heroimg">
-                <source srcset="images/marketphotomed.png" media="(min-width:600px) and (max-width: 799px)">
-                <source srcset="images/marketphotolarge.png" media="(min-width:800px)">
-                <img src="images/marketphotosmall.png" alt="bountiful market main photo">
+                <source srcset="images/aboutphotomed.webp" media="(min-width:600px) and (max-width: 799px)">
+                <source srcset="images/aboutphotolarge.webp" media="(min-width:800px)">
+                <img src="images/aboutphotosmall.webp" alt="bountiful market main photo">
             </picture>
-            
+            <p>Local Organic Market since 2002</p>
+             
         </section>  
-       
+
+        <section class="about">
+            <h2>About Bountiful Fresh Market</h2>
+            <div class="aboutMarket">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, et reiciendis consectetur maiores cupiditate quaerat, sequi alias exercitationem, omnis delectus illum! Maxime corporis quidem nulla praesentium vero culpa, labore libero?</p>
+                <img src="images/market.webp" alt="bountiful market photo">  
+            </div>
+        </section>  
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <div class="formbody">
+            
+                <form method="get" action="">
+                  <fieldset>
+                    
+                      <label class="left" for="fname">First Name:<input type="text" id="fname" name="fname" required></label>
+                      <label class="right" for="lname">Last Name:<input type="text" id="lname" name="lname"  required></label>
+                      <label class="left" for="tel">Cell Phone:<input type="text" id="tel" name="tel" placeholder="123456789"
+                    required></label>
+                      <label class="right" for="email">Email:<input type="text" id="email" name="email" placeholder="name@mail.com" required></label>
+                    <label class="mid" for="comments">Comments/Questions:</label><textarea id="comments" name="comments" rows="6" cols="30"></textarea>
+                    
+                  </fieldset>  
+                  <input onclick="return false" type="submit" value="SEND" class="submitBtn">
+                 </form>
+            </div>   
+            <div class="contactResponse">
+                <h3>Thank you for contacting Bountiful Fresh Market</h3>
+                
+            </div>  
+            <div class="map">
+                <div id="hours">
+                    <h3>Come Shop with Us</h3>
+                <p>Monday - Saturday <br>Open: 8:00am<br>Closed:8:00pm</p>
+                <p>Sunday<br>Open: 8:00pm<br>Closed: 6:00pm</p>
+                </div>
+                <!--embedded google maps from Google Maps-->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d835.4933306038811!2d-117.26307887357935!3d33.1362093100198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1670990933976!5m2!1sen!2sus" style="border:1px solid gray;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    
+       </section>
     </main>
     <footer>
         <section class="footcontent">
-         <a href="index.html"><img class="logo" src="images/bountifullogo.webp" alt="logo"></a>
+         <a href="index.html"><img class="logo" src="images/bountifullogo-foot.webp" alt="logo"></a>
          <div class="contactdata">
              <h4>Bountiful Market</h4>
              <p>500 Farm Road<br>Carlsbad, CA 92008</p>
@@ -78,6 +121,7 @@
      </footer>
     <script src="scripts/dates.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/about.js"></script>
     
 </body> 
 </html>
