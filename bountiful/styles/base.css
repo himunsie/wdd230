@@ -205,10 +205,10 @@ nav ul.open {
 
 }
 .hero h1 {
-    top: 10%;
+    top: 30%;
 }
 .hero p {
-    top: 30%;
+    top: 50%;
 }
 
 
@@ -224,6 +224,7 @@ nav ul.open {
     font-size: 1em;
     border: 2px solid #848241; 
     border-radius: 20px;
+    top: 50%;
 }
 .linkbutton a {
     text-decoration: none;
@@ -266,9 +267,21 @@ nav ul.open {
 .farmcontainer {
     background-color: #E2D0B8;
     display: block;
+    
     padding: 20px;
    
     
+}
+.farmcontainer p {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.farm1, .farm2 {
+    max-width: 475px;
+    margin: 0 auto;
+}
+.farm1 p, .farm2 p {
+    margin-bottom: 20px;
 }
 .farm1 img, .farm2 img{
     width: 400px;
@@ -329,7 +342,7 @@ nav ul.open {
 .formbody {
     min-width: 360px;
     margin: 0 auto;
-  
+    display: block;
     /* padding: 0 1rem; */
     
     

@@ -2,20 +2,29 @@ const requestURL = "https://brotherblazzard.github.io/canvas-content/fruit.json"
 const response = document.querySelector('.response');
 const form = document.querySelector('.formbody');
 const button = document.querySelector('.submitBtn');
-let selectionList = []
+const fruit1 = document.querySelector("#dropdown1");
+const fruit2 = document.querySelector("#dropdown2");
+const fruit3 = document.querySelector("#dropdown3");
+const carbs = document.querySelector("#carbs");
+const sugars = document.querySelector("#sugars");
+const proteins = document.querySelector("#proteins");
+const calories = document.querySelector("#calories");
+const fats = document.querySelector("#fats");
+
+let totalCarbs = 0;
+let totalProteins = 0;
+let totalFats = 0;
+let totalCalories = 0;
+let totalSugars = 0;
+
     async function fetchFruitApi() {
     try {
         const response = await fetch(requestURL);
         if (response.ok) {
         const fruitData = await response.json();
+        
         console.log(fruitData);
-        
-        
 
-
-        let fruit1 = document.querySelector("#dropdown1");
-        let fruit2 = document.querySelector("#dropdown2");
-        let fruit3 = document.querySelector("#dropdown3");
         
         // Loop through Object ref: https://www.codebyamir.com/blog/populate-a-select-dropdown-list-with-json
         for (let i = 0; i < fruitData.length; i++) {
@@ -35,6 +44,8 @@ let selectionList = []
             fruit3.add(option3);
         }
         
+       displayOrder();
+      
        
 
         } else {
@@ -73,10 +84,12 @@ let selectionList = []
     } */
 /*displayOrder(data)*/
     function displayOrder() {
-  
+       
 
         let orderReq = document.getElementById('comments').value;
         let name = document.getElementById('fname').value;
+        let phone = document.getElementById('tel').value;
+        let email = document.getElementById('email').value;
         let fruit1 = document.getElementById('dropdown1').value;
         let fruit2 = document.getElementById('dropdown2').value;
         let fruit3 = document.getElementById('dropdown3').value;
@@ -85,51 +98,41 @@ let selectionList = []
         document.getElementById('clickDate').textContent = new Date();
         document.getElementById('firstname').textContent = `${name}`;
         document.getElementById('spcrequests').textContent = `${orderReq}`;
+        document.getElementById('gmail').textContent = `${email}`;
+        document.getElementById('phone').textContent = `${phone}`;
         document.getElementById('fruit1').textContent = `${fruit1}`;
         document.getElementById('fruit2').textContent = `${fruit2}`;
         document.getElementById('fruit3').textContent = `${fruit3}`;
-      /*   const fruits = data.filter(fruit => fruit.name === fruit1);
+        document.getElementById('1fruit').textContent = `${fruit1}`;
+        document.getElementById('2fruit').textContent = `${fruit2}`;
+        document.getElementById('3fruit').textContent = `${fruit3}`;
        
-        console.log(fruits);
-        const carbs = `${fruits.nutritions.carbohzydrates}`;
-        console.log(carbs); */
-        /* let fruitdata1 = data.filter(fruit.name == fruit1);
-        
-        /* let fruit1carbs = fruits.filter(function(fruit) {return fruit.name == document.getElementById('dropdown1').value;});
-        let fruit2carbs = fruits.filter(function(fruit) {return fruit.name == document.getElementById('dropdown2').value ;});
-        let fruit3carbs = fruits.filter(function(fruit) {return fruit.name == document.getElementById('dropdown3').value ;}); */
-        /*let carbTotal = fruit1carbs[0].nutritions.carbohydrates + fruit2carbs[0].nutritions.carbohydrates + fruit3carbs[0].nutritions.carbohydrates;
-
-        document.getElementById('totalCarbs').textContent = `${carbTotal}`; */
-    }
+       /*  const fruits = data.filter(fruit => fruit.name === "Banana");
+        fruitSelection = fruits.length;
+       
+        console.log(fruits); */
+         /*let carb1 = data.filter(function (fruit) {
+          return fruit.name == document.getElementById('dropdown1').value;
+        });
+        console.log(carb1);
+      
+        let carb2 = data.filter(function (fruit) {
+          return fruit.name == document.getElementById('dropdown2').value;
+        });
+        let carb3 = data.filter(function (fruit) {
+          return fruit.name == document.getElementById('dropdown2').value;
+        });
+        let carbTotal =
+          carb1[0].nutritions.carbohydrates +
+          carb2[0].nutritions.carbohydrates +
+          carb3[0].nutritions.carbogyhrates;
+          document.getElementById('carbs').textContent = `${carbTotal}`;
+         */
+      }
     
+   
 
-    function displayFruit(selection) {
-        let card = document.createElement('ul');
-        let fruit = document.createElement('li');
-        let carbs = document.createElement('li');
-        let protein = document.createElement('li');
-        let fat = document.createElement('li');
-        let sugar = document.createElement('li');
-        let calories = document.createElement('li'); 
-        
-        fruit.textContent = `Fruit: ${selection[3].name}`;
-        carbs.textContent = `Carbs: ${selection[3].nutritions.carbohydrates}`;
-        protein.textContent = `Proteins: ${selection[3].nutritions.protein}`;
-        fat.textContent = `Fat: ${selection[3].nutritions.fat}`;
-        sugar.textContent = `Sugar: ${selection[3].nutritions.sugar}`;
-        calories.textContent = `Calories: ${selection[3].nutritions.calories}`; 
-        
-        card.appendChild(fruit);
-        card.appendChild(carbs);
-        card.appendChild(protein);
-        card.appendChild(fat);
-        card.appendChild(sugar);
-        card.appendChild(calories); 
 
-        cards.appendChild(card);
-
-    };
   /* remove form and display reponse section when submit button is clicked */
     
 

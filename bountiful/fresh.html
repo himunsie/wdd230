@@ -36,7 +36,7 @@
         </nav>
         
     </header>
-    <main>
+    <main class="fresh">
         <section class="hero">
             <h1>Bountiful Fresh Market</h1>
             <picture class="heroimg">
@@ -51,7 +51,7 @@
 
             <div class="formbody">
                 <h2>Order your Market Fresh Fruit Mixer</h2>
-                <form class="fruitform" name="orderform" method="get" action="">
+                <form class="fruitform" name="orderform">
                   <fieldset>
                     <h3>Market Mixer Order Form</h3>
                     <p class="require">* required field</p>
@@ -81,8 +81,7 @@
                             <label for="comments">Special Instructions:</label><textarea id="comments" name="comments" rows="6" cols="30"></textarea> 
         
                       </fieldset>  
-                    
-                  </fieldset>  
+                 
                   <input onclick="displayOrder(); clickCounter(); return false" type="submit" value="SUBMIT" class="submitBtn" >  <!--add onclick="displayOrder()"-->
                  </form>
                  </div>
@@ -90,7 +89,11 @@
         <section class="response">
             <div class="formresponse">
                 <h2>Thank you for your Order</h2>
-                <p><span id="firstname"></span> your Market Mixer order was recieved at <span id="clickDate"></span></p>
+                <h3>Order Information:</h3>
+                <p>Customer: <span id="firstname"></span></p>
+                <p>Phone: <span id="phone"></span></p>
+                <p>Email: <span id="gmail"></span></p>
+                 <p>Your Market Mixer order was recieved at <span id="clickDate"></span></p>
                 <p>Order includes: 
                     <br>
                     <span id="fruit1"></span>
@@ -113,9 +116,9 @@
                 </tr>
                 <tr>
                     <th scope="col"></th>
-                    <th scope="col"><span id="fruit1">fr1</span></th>
-                    <th scope="col"><span id="fruit2">fr2</span></th>
-                    <th scope="col"><span id="fruit3">fr3</span></th>
+                    <th scope="col"><span id="1fruit">fr1</span></th>
+                    <th scope="col"><span id="2fruit">fr2</span></th>
+                    <th scope="col"><span id="3fruit">fr3</span></th>
                     <th scope="col"><span id="total">Total</span></th>
                 </tr>
             </thead>
@@ -125,24 +128,35 @@
                     <td><span id="sugar1">1</span></td>
                     <td><span id="sugar2">2</span></td>
                     <td><span id="sugar3">3</span></td>
+                    <td><span id="sugars">3</span></td>
                 </tr>
                 <tr>
                     <td>Proteins</td>
                     <td><span id="protein1">1</span></td>
                     <td><span id="protein2">2</span></td>
                     <td><span id="protein3">3</span></td>
+                    <td><span id="proteins">3</span></td>
                 </tr>
                 <tr>
                     <td>Carbohydates</td>
                     <td><span id="carb1">1</span></td>
                     <td><span id="carb2">2</span></td>
                     <td><span id="carb3">3</span></td>
+                    <td><span id="carbs">3</span></td>
+                </tr>
+                <tr>
+                    <td>Fats</td>
+                    <td><span id="fats1">1</span></td>
+                    <td><span id="fats2">2</span></td>
+                    <td><span id="fats3">3</span></td>
+                    <td><span id="fats">3</span></td>
                 </tr>
                 <tr>
                     <td>Calories</td>
                     <td><span id="calories1">1</span></td>
                     <td><span id="calories2">2</span></td>
                     <td><span id="calories3">3</span></td>
+                    <td><span id="calories">3</span></td>
                 </tr>
                 
                 
